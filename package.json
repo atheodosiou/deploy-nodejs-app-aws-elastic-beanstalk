@@ -1,0 +1,34 @@
+{
+  "name": "deploy-nodejs-app-aws-elastic-beanstalk",
+  "version": "0.0.1",
+  "description": "Sample code for 'How to Deploying a Node.js app to AWS Elastic Beanstalk' article.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atheodosiou/deploy-nodejs-app-aws-elastic-beanstalk.git"
+  },
+  "keywords": [
+    "deploy",
+    "nodejs",
+    "AWS",
+    "Elastic",
+    "Beanstalk"
+  ],
+  "author": "Anastasios Theodosiou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atheodosiou/deploy-nodejs-app-aws-elastic-beanstalk/issues"
+  },
+  "homepage": "https://github.com/atheodosiou/deploy-nodejs-app-aws-elastic-beanstalk#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
+}
